@@ -6,9 +6,10 @@
         "black": "hsl(0, 0%, 0%)",
         "black2": "hsl(60, 17%, 11%)",
         "black3": "hsl(70, 8%, 15%)",
-        "custom": "#1C1C1C",
+        // "custom": "#222630",
+        "custom": "#20242F",
         // "custom-green": "#DFF59A",
-        "comment": "#4F5D58",
+        "comment": "#4F5254",
         // "blue": "hsl(190, 81%, 67%)",
         "blue": "#6FC1F5",
         "grey": "hsl(55, 8%, 26%)",
@@ -26,7 +27,7 @@
         "white3": "#C7C9C9",
         "yellow": "hsl(54, 70%, 68%)",
         // For function name
-        "yellow2": "#7CDF61",
+        "yellow2": "#87E970",
         // "yellow2": "hsl(80, 76%, 53%)",
         "yellow3": "hsl(60, 12%, 79%)",
         "yellow4": "hsl(55, 11%, 22%)",
@@ -58,7 +59,8 @@
             "name": "Comment",
             "scope": "comment",
             // "foreground": "var(yellow5)"
-            "foreground": "var(comment)"
+            "foreground": "var(comment)",
+            "font_style": "italic"
         },
         {
             "name": "String",
@@ -120,7 +122,7 @@
             "name": "Inherited class",
             "scope": "entity.other.inherited-class",
             "foreground": "var(orange)",
-            "font_style": "italic underline"
+            // "font_style": "italic underline"
         },
         {
             "name": "Function argument",
@@ -137,7 +139,7 @@
             "name": "Language variable",
             "scope": "variable.language",
             "foreground": "var(orange)",
-            "font_style": "italic"
+            // "font_style": "italic"
             // "font_style": ""
         },
         {
@@ -153,7 +155,8 @@
         {
             "name": "Function call",
             "scope": "variable.function, variable.annotation",
-            "foreground": "var(blue)"
+            // "foreground": "var(blue)"
+            "foreground": "var(yellow2)"
         },
         {
             "name": "Library function",
@@ -241,6 +244,11 @@
             "name": "markup hr",
             "scope": "punctuation.definition.thematic-break",
             "foreground": "var(yellow5)"
+        },
+        {
+            "name": "markup blade",
+            "scope": "punctuation.section.embedded.begin.blade, punctuation.section.embedded.end.blade",
+            "foreground": "#D976EB"
         },
         {
             "name": "markup blockquote",
