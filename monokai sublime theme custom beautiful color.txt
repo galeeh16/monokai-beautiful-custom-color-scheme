@@ -6,8 +6,8 @@
         "black": "hsl(0, 0%, 0%)",
         "black2": "hsl(60, 17%, 11%)",
         "black3": "hsl(70, 8%, 15%)",
-        // "custom": "#222630",
-        "custom": "#20242F",
+        "custom": "#202020",
+        // "custom": "#20242F",
         // "custom-green": "#DFF59A",
         "comment": "#4F5254",
         // "blue": "hsl(190, 81%, 67%)",
@@ -21,10 +21,12 @@
         "red": "hsl(0, 93%, 59%)",
         // "red2": "hsl(338, 95%, 56%)",
         "red2": "#FD3F7E",
-        "white": "hsl(0, 0%, 97%)",
-        "white2": "hsl(60, 36%, 96%)",
+        // "white": "hsl(0, 0%, 97%)",
+        "white": "#D0D3DB",
+        // "white2": "hsl(60, 36%, 96%)",
+        "white2": "#D0D3DB",
         // "white3": "hsl(60, 30%, 96%)",
-        "white3": "#C7C9C9",
+        "white3": "#D0D3DB", // untuk tutup kurung, kalo js response.{NAMA} nya
         "yellow": "hsl(54, 70%, 68%)",
         // For function name
         "yellow2": "#87E970",
@@ -84,7 +86,8 @@
         },
         {
             "name": "Variable",
-            "scope": "variable"
+            "scope": "variable",
+            "foreground": "#D0D3DB"
         },
         {
             "name": "Keyword",
